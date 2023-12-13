@@ -48,7 +48,7 @@ Based on the eCalc simulation, the key takeaways are:
 
 It is important to note that while eCalc's predicted total weight for the drone is higher than the actual, this discrepancy is due to the use of generic parts for estimation purposes. Since the 'including drive' option for the all-up weight is selected, the actual build's performance may vary slightly from the simulation.
 
-![eCalc Thrust-to-Weight and Flight Time Graph](Documentation_Images/ecalc_robotics_drone_grahp.png)
+![eCalc Thrust-to-Weight and Flight Time Graph](Documentation_Images/ecalc_robotics_drone_graph.png)
 
 The graph above illustrates the relationship between throttle input and various performance metrics such as flight time and efficiency. This visualization aids in understanding how changes in throttle impact the drone's performance.
 
