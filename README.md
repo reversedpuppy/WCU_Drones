@@ -25,7 +25,37 @@ Documentation and Code for Western CU's indoor Drone Project
 ---
 
 ## 1. Basic Build + Ecalc Performance Predictions
-> Content goes here
+## Basic Build + Ecalc Performance Predictions
+
+This section provides a summary of the predicted performance for the drone based on the part weights, power draw, and simulated metrics provided by eCalc.
+
+### Part Weights and Power Draw Summary
+
+- **Total Weight**: 160 grams
+- **Power Draw**: 0.810 amps
+
+These values are the sum of all individual component weights and the estimated power draw based on the build specifications.
+
+### eCalc Performance Simulation
+
+![eCalc Performance Statistics](/path/to/ecalc_performance_stats_robotics_drone.png)
+
+Based on the eCalc simulation, the key takeaways are:
+
+- **Thrust-to-Weight Ratio**: Approximately 5, indicating sufficient thrust to be airborne.
+- **Estimated Flight Time**: Between 11-12 minutes, which falls within the desired range for the drone's intended use.
+- **Overall Status**: All indicators are within the green zone, signifying optimal performance under the specified conditions.
+
+It is important to note that while eCalc's predicted total weight for the drone is higher than the actual, this discrepancy is due to the use of generic parts for estimation purposes. Since the 'including drive' option for the all-up weight is selected, the actual build's performance may vary slightly from the simulation.
+
+![eCalc Thrust-to-Weight and Flight Time Graph](/path/to/ecalc_robotics_drone_graph.png)
+
+The graph above illustrates the relationship between throttle input and various performance metrics such as flight time and efficiency. This visualization aids in understanding how changes in throttle impact the drone's performance.
+
+### Remarks on eCalc Predictions
+
+While eCalc provides a valuable estimate for performance, it is essential to conduct real-world tests to validate these predictions. The actual performance can be influenced by factors not accounted for in the simulation, such as environmental conditions and real-world loading scenarios.
+
 
 ## 2. Physical Assembly
 ### 2a. Wiring FC to Raspberry Pi, ESC, and FPV Camera
