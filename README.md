@@ -38,7 +38,7 @@ These values are the sum of all individual component weights and the estimated p
 
 ### eCalc Performance Simulation
 
-![eCalc Performance Statistics](/Documentation_Images/ecalc_performance_stats_robotics_drone)
+![eCalc Performance Statistics](Documentation_Images/ecalc_performance_stats_robotics_drone)
 
 Based on the eCalc simulation, the key takeaways are:
 
